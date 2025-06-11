@@ -6,21 +6,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 def main():
-    # Initialize the OpenAI chat model
-    llm = ChatOpenAI(model="gpt-4o", temperature=0.0)
+    model = ChatOpenAI(temperature=0.0,)
+    tools = []
+    agent_executor = create_react_agent(model,tools)
 
-    # Define a tool that returns the current time
-    def get_current_time():
-        from datetime import datetime
-        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    time_tool = Tool(
-        name="get_current_time",
-        func=get_current_time,
-        description="Returns the current date and time."
-    )
-
-    # Create a React agent with the LLM and the tool
-    agent = create_react_agent(llm, tools=[time_tool])
-
-    # Run the agent with a human message
+    print("Welcome!! I am Your AI Assistant. You can ask me anything. Type 'exit' to quit.")
+    print("You can also use tools like 'calculator' or 'weather' if available.")
+    while True:
+        user_input = input("\nYou: ").strip()
+        if user_input.lower() == 'exit':
+            print("Exiting the chat. Goodbye!")
+            break
+        try:
+            response = agent_executor.invoke(HumanMessage(content=user_input))
+            print(f"AI: {response.content}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
