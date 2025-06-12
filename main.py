@@ -17,6 +17,8 @@ def main():
         if user_input.lower() == 'exit':
             print("Exiting the chat. Goodbye!")
             break
+
+            
         try:
             response = agent_executor.invoke(HumanMessage(content=user_input))
             print(f"AI: {response.content}")
