@@ -37,7 +37,7 @@ ai-agent-openai/ ├── app.py                 # Streamlit UI (optional) ├�
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KunalxKushwaha/AI-Agent-openai.git
+git clone https://github.com/KunalxKushwaha/AI-Agent.git
 cd ai-agent-openai
 
 2. Create Virtual Environment (Recommended)
@@ -57,37 +57,6 @@ Create a .env file in the root directory and add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key
 
 > ⚠️ Never expose your API key publicly!
-
-
-
-
----
-
-🧾 Example Usage (CLI)
-
-main.py
-
-import openai
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-def ask_agent(prompt):
-    response = openai.ChatCompletion.create(
-        model="gpt-4",  # or "gpt-3.5-turbo"
-        messages=[{"role": "user", "content": prompt}]
-    )
-    return response.choices[0].message.content
-
-if __name__ == "__main__":
-    while True:
-        query = input("You: ")
-        if query.lower() in ['exit', 'quit']:
-            break
-        reply = ask_agent(query)
-        print("Agent:", reply)
 
 Run:
 
@@ -184,7 +153,7 @@ venv/
 
 🙋‍♂️ Author
 
-Made with ❤️ by Your Name
+Made with ❤️ by Kunal Kushwaha 
 📬 Connect: LinkedIn | Twitter
 
 
@@ -203,14 +172,4 @@ If you like this project, give it a ⭐ and share it with others!
 
 > Contributions, issues and feature requests are welcome!
 
-
-
----
-
-Let me know if you want:
-- A badge section at the top (GitHub Stars, Forks, etc.)
-- A deployable version (on Streamlit Cloud, Vercel, etc.)
-- Integration with LangChain or OpenAI’s new tools (e.g., function calling or retrieval)
-
-I'm happy to add those too!
 
