@@ -37,7 +37,7 @@ ai-agent-openai/ ├── app.py                 # Streamlit UI (optional) ├�
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-agent-openai.git
+git clone https://github.com/KunalxKushwaha/AI-Agent-openai.git
 cd ai-agent-openai
 
 2. Create Virtual Environment (Recommended)
