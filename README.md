@@ -1,4 +1,4 @@
-# 🤖 AI Agent using OpenAI API
+# 🤖 AI Agent using Python 
 
 A powerful and conversational **AI Agent** built with **Python** and **OpenAI’s GPT models**. This intelligent assistant can answer queries, solve tasks, summarize content, and provide contextual responses — just like your own ChatGPT-powered bot!
 
