@@ -98,7 +98,7 @@ requests
 
 ---
 
-🔐 Security
+## 🔐 Security
 
 Your OpenAI key should never be hard-coded.
 
