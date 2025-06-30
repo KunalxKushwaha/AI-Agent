@@ -88,7 +88,7 @@ streamlit run app.py
 
 ---
 ```
-📦 requirements.txt
+## 📦 requirements.txt
 
 openai
 python-dotenv
