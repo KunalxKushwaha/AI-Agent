@@ -151,7 +151,7 @@ venv/
 
 ---
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Made with ❤️ by Kunal Kushwaha 
 📬 Connect: LinkedIn | Twitter
