@@ -144,13 +144,6 @@ venv/
 
 ---
 
-## 🚀 Live Demo
-
-🔗 See Live (if deployed)
-
-
----
-
 ## 🙋‍♂️ Author
 
 Made with ❤️ by Kunal Kushwaha 
