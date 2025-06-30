@@ -87,7 +87,7 @@ streamlit run app.py
 
 
 ---
-
+```
 📦 requirements.txt
 
 openai
