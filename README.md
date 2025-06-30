@@ -114,7 +114,7 @@ venv/
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
 > Replace with actual screenshots from the app
 
