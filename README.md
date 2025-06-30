@@ -152,7 +152,7 @@ Made with ❤️ by Kunal Kushwaha
 
 ---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
