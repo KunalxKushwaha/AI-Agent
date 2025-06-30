@@ -128,7 +128,7 @@ venv/
 
 ---
 
-✨ Future Enhancements
+## ✨ Future Enhancements
 
 🎤 Add voice input/output using SpeechRecognition and pyttsx3
 
