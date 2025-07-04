@@ -130,7 +130,7 @@ venv/
 
 ## ✨ Future Enhancements
 
-🎤 Add voice input/output using SpeechRecognition and pyttsx3
+🎤 Add voice input/output using SpeechRecognition and pyttsx3.
 
 📎 Enable file upload and summarization (e.g., PDFs, text)
 
