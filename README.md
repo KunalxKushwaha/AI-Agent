@@ -22,7 +22,7 @@ A powerful and conversational **AI Agent** built with **Python** and **OpenAI’
 - `python-dotenv` – Secure environment variable management.
 - `requests` – Optional external API integrations.
 - `streamlit` – Optional web-based interface
-- `flask` – Optional lightweight web backend
+- `flask` – Optional lightweight web backend.
 
 ---
 
