@@ -18,7 +18,7 @@ A powerful and conversational **AI Agent** built with **Python** and **OpenAI’
 ## 🛠️ Tech Stack
 
 - **Python 3.x**.
-- [`openai`](https://pypi.org/project/openai/) – Access GPT-4/GPT-3.5 models
+- [`openai`](https://pypi.org/project/openai/) – Access GPT-4/GPT-3.5 models.
 - `python-dotenv` – Secure environment variable management.
 - `requests` – Optional external API integrations
 - `streamlit` – Optional web-based interface
