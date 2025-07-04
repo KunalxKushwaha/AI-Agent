@@ -132,7 +132,7 @@ venv/
 
 🎤 Add voice input/output using SpeechRecognition and pyttsx3.
 
-📎 Enable file upload and summarization (e.g., PDFs, text)
+📎 Enable file upload and summarization (e.g., PDFs, text).
 
 🌐 Integrate web search for real-time info (SerpAPI)
 
