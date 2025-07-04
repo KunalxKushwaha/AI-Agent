@@ -138,7 +138,7 @@ venv/
 
 🧠 Add memory and context persistence with vector DB (e.g., FAISS).
 
-📊 Add charts/visual output using Matplotlib or Plotly
+📊 Add charts/visual output using Matplotlib or Plotly.
 
 
 
