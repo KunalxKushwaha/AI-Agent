@@ -136,7 +136,7 @@ venv/
 
 🌐 Integrate web search for real-time info (SerpAPI).
 
-🧠 Add memory and context persistence with vector DB (e.g., FAISS)
+🧠 Add memory and context persistence with vector DB (e.g., FAISS).
 
 📊 Add charts/visual output using Matplotlib or Plotly
 
