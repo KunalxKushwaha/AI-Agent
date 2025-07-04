@@ -134,7 +134,7 @@ venv/
 
 📎 Enable file upload and summarization (e.g., PDFs, text).
 
-🌐 Integrate web search for real-time info (SerpAPI)
+🌐 Integrate web search for real-time info (SerpAPI).
 
 🧠 Add memory and context persistence with vector DB (e.g., FAISS)
 
