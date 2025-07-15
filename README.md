@@ -11,7 +11,7 @@ A powerful and conversational **AI Agent** built with **Python** and **OpenAI’
 - 📚 Handles follow-up questions and maintains context
 - 📄 Summarization, explanation, and question-answering support
 - 🌐 Optional Web UI using Streamlit for interactivity.
-- 📂 Easy to extend and integrate with other tools/APIs.
+- 📂 Easy to extend and integrate with other tools/APIs
 
 ---
 
