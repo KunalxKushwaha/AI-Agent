@@ -9,7 +9,7 @@ A powerful and conversational **AI Agent** built with **Python** and **OpenAI’
 - 🗣️ Chat-based assistant using OpenAI GPT (GPT-4 / GPT-3.5)
 - ✍️ Understands and responds to natural language prompts
 - 📚 Handles follow-up questions and maintains contex
-- 📄 Summarization, explanation, and question-answering support.
+- 📄 Summarization, explanation, and question-answering support
 - 🌐 Optional Web UI using Streamlit for interactivity.
 - 📂 Easy to extend and integrate with other tools/APIs.
 
