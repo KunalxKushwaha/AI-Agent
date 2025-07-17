@@ -12,7 +12,7 @@ A powerful and conversational **AI Agent** built with **Python** and **OpenAI’
 - 📄 Summarization, explanation, and question-answering support.
 - 🌐 Optional Web UI using Streamlit for interactivity
 - 📂 Easy to extend and integrate with other tools/APIs.
-- 
+  
 ---
 
 ## 🛠️ Tech Stack
