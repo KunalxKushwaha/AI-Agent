@@ -93,7 +93,7 @@ streamlit run app.py
 openai
 python-dotenv
 streamlit
-requests
+requests.
 
 
 ---
